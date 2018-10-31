@@ -1,0 +1,174 @@
+#;01001;01001  Jan Mayen (ENJA)
+#;01004;01004  Ny-Alesund Ii (ENAS)
+#;01028;01028  Bjornoya (ENBJ)
+#;01241;01241  Orland (ENOL)
+#;01415;01415  Stavanger/Sola (ENZV)
+#;02591;02591  Visby Aerologiska Stn (ESQV)
+#;03005;03005  Lerwick
+#;04018;04018  Keflavikurflugvollur (BIKF)
+#;04089;04089  Egilsstadir (BIEG)
+#;04220;04220  Aasiaat (Egedesminde) (BGEM)
+#;04270;04270  Narsarsuaq (BGBW)
+#;04320;04320  Danmarkshavn (BGDH)
+#;04339;04339  Ittoqqortoormiit (BGSC)
+#;04360;04360  Tasiilaq (Ammassalik) (BGAM)
+#;04417;04417  Geosummit
+#;10035;10035  Schleswig
+#;10113;10113  Norderney
+#;10184;10184  Greifswald
+#;10238;10238  Bergen (ETGB)
+#;10393;10393  Lindenberg
+#;12120;12120  Leba
+#;12374;12374  Legionowo
+#;20046;20046  Polargmo Im. Krenkelja, DK
+#;20292;20292  Gmo Im.E.K. Fedorova, DK
+#;20674;20674  Ostrov Dikson, DK
+#;20744;20744  Malye Karmakuly, DK
+#;21824;21824  Tiksi, TK
+#;21946;21946  Chokurdah, TK
+#;22113;22113  Murmansk, AR (ULMM)
+#;22217;22217  Kandalaksa, AR
+#;22271;22271  Sojna, AR
+#;22522;22522  Kem, LE
+#;22543;22543  Arhangelsk, AR
+#;22820;22820  Petrozavodsk, LE
+#;22845;22845  Kargopol, AR
+#;23078;23078  Norilsk
+#;23205;23205  Narjan-Mar, AR
+#;23330;23330  Salehard, NO
+#;23415;23415  Pechora, AR
+#;23472;23472  Turuhansk, NO
+#;23802;23802  Syktyvkar, AR
+#;23884;23884  Bor, NO
+#;23921;23921  Ivdel, SV
+#;23933;23933  Hanty-Mansijsk, NO (USHH)
+#;23955;23955  Aleksandrovskoe, NO
+#;24125;24125  Olenek, HA
+#;24266;24266  Verhojansk, HA
+#;24343;24343  Zhigansk, HA
+#;24507;24507  Tura, NO
+#;24641;24641  Viljujsk, HA
+#;24688;24688  Ojmjakon, HA
+#;24726;24726  Mirnvy, HB
+#;70133;70133  Kotzebue, Ralph Wien, AK (PAOT)
+#;70200;70200  Nome, AK (PAOM)
+#;70219;70219  Bethel/Bethel Airport, AK (PABE)
+#;70261;70261  Fairbanks/Int, AK (PAFA)
+#;70273;70273  Anchorage/Int, AK (PANC)
+#;70308;70308  St. Paul, AK (PASN)
+#;70316;70316  Cold Bay, AK (PACD)
+#;70326;70326  King Salmon, AK (PAKN)
+#;70350;70350  Kodiak, AK (PADQ)
+#;70361;70361  Yakutat, AK (PAYA)
+#;70398;70398  Annette Island, AK (PANT)
+#;71043;71043  Norman Wells Ua, NT (YVQ)
+#;71081;71081  Hall Beach, NT (YUX)
+#;71082;71082  Alert, NT (WLT)
+#;71109;71109  Port Hardy, BC (YZT)
+#;71119;71119  Edmonton Stony Plain, AB (WSE)
+#;71126;71126  Edmonton, AB (ZED)
+#;71802;71802  Mt Pearl, NF (AYT)
+#;71811;71811  Sept-Iles, QB (YZV)
+#;71815;71815  Stephenville, NF (YJT)
+#;71816;71816  Goose Bay, NF (YYR)
+#;71823;71823  La Grande Iv, QB (YAH)
+#;71867;71867  The Pas, MB (YQD)
+#;71906;71906  Kuujjuaq, QB (YVP)
+#;71907;71907  Inukjuak, QB (WPH)
+#;71908;71908  Prince George, PE (ZXS)
+#;71913;71913  Churchill, MB (YYQ)
+#;71917;71917  Eureka, NT (WEU)
+#;71925;71925  Cambridge Bay, NT (YCB)
+#;71926;71926  Baker Lake, NT (YBK)
+#;71934;71934  Fort Smith, NT (YSM)
+#;71945;71945  Fort Nelson, BC (YYE)
+#;71957;71957  Inuvik, NT (YEV)
+#;72797;72797  Quillayute, WA (UIL)
+#;73033;73033  Vernon, BC (CWVK)
+#;24908;24908  Vanavara, NO
+#;24944;24944  Olekminsk, HA
+#;24959;24959  Jakutsk, HA (UEEE)
+#;25123;25123  Cherskij, HA
+#;25400;25400  Zyrjanka, HA
+#;25428;25428  Omolon, HB
+#;25703;25703  Sejmchan, HA
+#;25913;25913  Magadan, HA (UHMM)
+#;26063;26063  St.Petersburg(Voejkovo), LE (ULLI)
+#;26298;26298  Bologoe, LE
+#;26477;26477  Velikie Luki, LE (ULOL)
+#;26702;26702  Kaliningrad, MI
+#;26781;26781  Smolensk, MI
+#;27038;27038  Vologda, AR (ULWW)
+#;27199;27199  Kirov, MS
+#;27459;27459  Niznij Novgorod, MS
+#;27612;27612  Moskva (Dolgoprudnyj), MS
+#;27707;27707  Suhinici, MS
+#;27730;27730  Rjazan, MS
+#;27962;27962  Penza, MS (UWPP)
+#;27995;27995  Samara (Bezencuk), MS
+#;28225;28225  Perm, SV
+#;28275;28275  Tobolsk, NO
+#;28445;28445  Verhnee Dubrovo, SV
+#;28661;28661  Kurgan, SV
+#;28698;28698  Omsk, NO
+#;28722;28722  Ufa, SV
+#;28951;28951  Kostanai, AK
+#;29231;29231  Kolpasevo, NO
+#;29263;29263  Enisejsk, NO (UNII)
+#;29282;29282  Bogucany, NO
+#;29572;29572  Emeljanovo, NO
+#;29612;29612  Barabinsk, NO
+#;29634;29634  Novosibirsk, NO (UNNN)
+#;29698;29698  Nizhneudinsk, NO (UINN)
+#;29839;29839  Barnaul, IR
+#;29862;29862  Hakasskaja, NO
+#;30054;30054  Vitim, HA
+#;30230;30230  Kirensk, IR (UIKK)
+#;30309;30309  Bratsk, IR
+#;30372;30372  Chara, IR
+#;30554;30554  Bagdarin, IR
+#;30635;30635  Ust-Barguzin, IR
+#;30673;30673  Mogoca, IR
+#;30715;30715  Angarsk, IR
+#;30965;30965  Borzja, IR
+#;31004;31004  Aldan, HA
+#;31088;31088  Ohotsk, HA
+#;31168;31168  Ajan, HA
+#;31300;31300  Zeja, HA
+#;31369;31369  Nikolaevsk-Na-Amure, HA
+#;31510;31510  Blagovescensk, HA
+#;31538;31538  Sutur
+#;31736;31736  Habarovsk, HA
+#;31770;31770  Sovetskay Gavan
+#;31873;31873  Dalnerechensk, HA
+#;31977;31977  Vladivostok (Sad Gorod), HA
+#;32061;32061  Aleksandrovsk-Sahalnskij, HA
+#;32098;32098  Poronajsk, HA
+#;32150;32150  Juzhno-Sahalinsk, HA (UHSS)
+#;32215;32215  Severo-Kurilsk, HA
+#;32389;32389  Kljuchi, HA
+#;32477;32477  Sobolevo
+#;32540;32540  Kamchatskij, HA (UHPP)
+#;32618;32618  Nikolskoe, HA
+#;33345;33345  Kyiv, KI (UKKK)
+#;33791;33791  Kryvyi Rih, KI
+#;34009;34009  Kursk, MS
+#;34122;34122  Voronez, MS (UUOO)
+#;34172;34172  Saratov, MS
+#;34247;34247  Kalac, MS
+#;34467;34467  Volgograd, TB (URWW)
+#;34731;34731  Rostov-Na-Donu, TB (URRR)
+#;34858;34858  Divnoe, TB
+#;34882;34882  Astrakhan, TB
+#;35121;35121  Orenburg, AL
+35229;35229  Aktjubinsk, AL (UATT)
+35700;35700  Atyran, AL
+36003;36003  Pavlodar, AL
+37011;37011  Tuapse, TB
+37055;37055  Mineralnye Vody, TB (URMM)
+37259;37259  Mahachkala
+47401;47401  Wakkanai
+50527;50527  Hailar, SY
+50557;50557  Nenjiang, SY
+50774;50774  Yichun, SY
+50953;50953  Harbin, SY
