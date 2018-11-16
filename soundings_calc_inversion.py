@@ -90,14 +90,15 @@ for per, days in zip(period, period_days):
                     years[1] = len(df2.index)/days/2
 
                 inv = df2.INV_S.values
-                inv_num = len(inv[inv>0])
+                # Inversions here are when inv < 0, due to an error in the previous script
+                inv_num = len(inv[inv<0])
                 total = len(inv)
                 if total == 0:
                     inv_perc = 0
                 else:
                     inv_perc = (inv_num/total)*100
 
-                inv_mean = np.mean(inv[inv>0])
+                inv_mean = np.mean(inv[inv<0])*(-1)
                 aux.append((inv_mean, inv_perc))
 
             #print(aux)
