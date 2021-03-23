@@ -56,7 +56,7 @@ def main():
           i += 1
           continue
         
-        if i > 1752:
+        if i > 432:
           # more than 20% of the data is empy. Skip location
           break
 
