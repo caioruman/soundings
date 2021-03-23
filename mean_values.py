@@ -17,6 +17,8 @@ def main():
   dataf = 2015
   periods = [('DJF', [12, 1, 2]), ('JJA', [6, 7, 8])]
 
+  dd = "/pixel/project01/cruman/Data/Soundings"
+
   #tarray = np.arange(datetime(datai,1,1,0), datetime(dataf,12,31,12), timedelta(hours=12)).astype(datetime)
   t_pd = pd.Series(pd.date_range(start='{0}-01-01 00:00'.format(datai), end='{0}-12-31 12:00'.format(dataf), freq="12H"))
 
@@ -30,7 +32,7 @@ def main():
 
   for dname in list_dir:
     
-    fname = glob('{0}/*fill1000.csv'.format(dname))[0]
+    fname = glob('{0}/{1}/*fill1000.csv'.format(dd,dname))[0]
     print(dname)
     df = pd.read_csv(fname, index_col=0)
     df['Date'] = pd.to_datetime(df['Date'])
