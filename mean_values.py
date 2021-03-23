@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
-from sklearn import linear_model
-from sklearn.metrics import mean_squared_error, r2_score
+#from sklearn import linear_model
+#from sklearn.metrics import mean_squared_error, r2_score
 from glob import glob
 import os
 from datetime import datetime, timedelta
