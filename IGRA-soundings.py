@@ -35,24 +35,28 @@ def main():
     df['NOMINAL'] =  pd.to_datetime(df['NOMINAL'], format='%Y%m%d%H')
     df['TEMPERATURE'] = df['TEMPERATURE'].replace(-9999.0, np.nan)
     df['GPHEIGHT'] = df['GPHEIGHT'].replace(-9999, np.nan)
+
+    t_pd = pd.Series(pd.date_range(start='{0}-01-01 00:00'.format(datai), end='{0}-12-31 12:00'.format(dataf), freq="12H"))
     
     season = [12, 1, 2]
     sname = "DJF"
-    dt, dt_std, dtdz, dtdz_std, freq = calcSoundingsIGRA(df, row.ALT, season, sname)    
+    dt, dt_std, dtdz, dtdz_std, freq = calcSoundingsIGRA(df, row.ALT, season, sname, t_pd, name)    
 
     f.write(f'{row.NAME},{row.ID},{row.ALT},{row.LAT},{row.LON},{sname},{dt:3.2f},{dt_std:3.2f},{dtdz:3.2f},{dtdz_std:3.2f},{freq:3.2f}\n')
     
     season = [6, 7, 8]
     sname = "JJA"
-    dt, dt_std, dtdz, dtdz_std, freq = calcSoundingsIGRA(df, row.ALT, season, sname)    
+    dt, dt_std, dtdz, dtdz_std, freq = calcSoundingsIGRA(df, row.ALT, season, sname, t_pd, name)    
 
     f.write(f'{row.NAME},{row.ID},{row.ALT},{row.LAT},{row.LON},{sname},{dt:3.2f},{dt_std:3.2f},{dtdz:3.2f},{dtdz_std:3.2f},{freq:3.2f}\n')
     #f.write('NAME,ID,ALT,LAT,LON,SEASON,DELTAT,DT_STD,DTDZ,DTDZ_STD\n')
 
   f.close()
     
-def calcSoundingsIGRA(df, alt, season, sname):
-  t_pd = pd.Series(pd.date_range(start='{0}-01-01 00:00'.format(datai), end='{0}-12-31 12:00'.format(dataf), freq="12H"))
+def calcSoundingsIGRA(df, alt, season, sname, t_pd, name):
+
+  print(f"calculating values for {name} and season {sname}")
+  
   # Filterin for season
   t_pd = t_pd[(t_pd.dt.month == season[0]) | (t_pd.dt.month == season[1]) | (t_pd.dt.month == season[2])]
   
