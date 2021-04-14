@@ -79,13 +79,21 @@ def calcSoundingsIGRA(df, alt, season, sname):
           dtdz_l.append(dtdz)
           k += 1
         i += 1
-    
-  dtdz = np.mean(dtdz_l)
-  deltaT = np.mean(dt_l)
-  freq = float(k)/i
   
-  dtdz_std = np.std(dtdz_l)
-  deltaT_std = np.std(dt_l)
+  # if there are no inversions or if less than 1500 dates to calculate
+  if len(dt_l) == 0 or i < 1500:
+    dtdz = np.nan
+    deltaT = np.nan
+    freq = np.nan
+    dtdz_std = np.nan
+    deltaT_std = np.nan
+  else:
+    dtdz = np.mean(dtdz_l)
+    deltaT = np.mean(dt_l)
+    freq = float(k)/i
+    
+    dtdz_std = np.std(dtdz_l)
+    deltaT_std = np.std(dt_l)
   
   #dt, dt_std, dtdz, dtdz_std, freq
   return deltaT, deltaT_std, dtdz, dtdz_std, freq
